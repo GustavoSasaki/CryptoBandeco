@@ -1,0 +1,37 @@
+/* Styles go here */
+
+.token {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.navbar {
+  background-color:darkgoldenrod
+}
+
+.buttonMint {
+  background-color:darkgoldenrod;
+  border-color: rgb(0, 0, 0);
+}
+.textoNavBar {
+  color:rgb(0, 0, 0);
+}
+
+.tokenText{
+  text-align: left;
+}
+
+
+.containerr {
+  display: flex; /* or inline-flex */
+  flex-direction: column;
+  align-items: stretch;
+  align-content:stretch;
+}
+
+.item {
+  flex-grow: 1; /* default 0 */
+}
+
